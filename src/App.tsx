@@ -19,7 +19,7 @@ export default function IPFSPage() {
 }`
 
   // Custom toast implementation
-  const showCustomToast = (title, description, duration = 3000) => {
+  const showCustomToast = (title: string, description: string, duration: number = 3000) => {
     setToastMessage({ title, description })
     setShowToast(true)
     setTimeout(() => setShowToast(false), duration)
