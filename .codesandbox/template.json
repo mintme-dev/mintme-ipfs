@@ -1,0 +1,15 @@
+{
+  "title": "Mintme.dev IPFS",
+  "description": "Mintme basic introduction to IPFS",
+  "iconUrl": "https://raw.githubusercontent.com/codesandbox/sandbox-templates/main/react-tailwind/.codesandbox/icon.png",
+  "tags": [
+    "frontend",
+    "solana",
+    "crypto",
+    "token",
+    "react",
+    "vite",
+    "tailwind"
+  ],
+  "published": true
+}
