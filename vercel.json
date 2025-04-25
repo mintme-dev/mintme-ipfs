@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/metadata.json",
+            "dest": "/metadata.json",
+            "headers": {
+                "cache-control": "public, max-age=86400",
+                "content-type": "application/json"
+            }
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/$1"
+        }
+    ]
+}
